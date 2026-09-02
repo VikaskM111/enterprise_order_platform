@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: enterprise-order-platform
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/enterprise_order
+    username: postgres
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
